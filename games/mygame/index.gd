@@ -1,6 +1,5 @@
 extends Node2D
 
-
 var Player = preload("res://games/mygame/Player.tscn")
 
 onready var Players = $Players

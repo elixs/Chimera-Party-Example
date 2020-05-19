@@ -3,7 +3,7 @@ tool
 extends Node
 
 export var display_name: String
-export var description: String
+export(String, MULTILINE) var description
 
 enum GameType {
 	ALL_FOR_ALL,

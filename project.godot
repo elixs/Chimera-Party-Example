@@ -8,9 +8,14 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Resource",
+"class": "Config",
+"language": "GDScript",
+"path": "res://scripts/Config.gd"
+} ]
 _global_script_class_icons={
-
+"Config": ""
 }
 
 [application]
@@ -21,7 +26,7 @@ config/icon="res://icon.png"
 
 [autoload]
 
-Party="*res://Party.gd"
+Party="*res://scripts/Party.gd"
 
 [display]
 

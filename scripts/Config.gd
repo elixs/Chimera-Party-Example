@@ -1,6 +1,5 @@
-tool
-
-extends Node
+extends Resource
+class_name Config
 
 export var display_name: String
 export(String, MULTILINE) var description

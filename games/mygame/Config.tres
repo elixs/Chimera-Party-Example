@@ -2,18 +2,17 @@
 
 [ext_resource path="res://scripts/Config.gd" type="Script" id=1]
 
-
-
 [resource]
 script = ExtResource( 1 )
-display_name = ""
-description = ""
+display_name = "Esperar 5"
+description = "Debes esperar 5segundos!
+Puedes darte vuelta!"
 game_types = 1
 control_group = false
 cg_name_0 = ""
 cg_name_1 = ""
-dir_group_0 = 0
-dir_desc_0 = ""
+dir_group_0 = 15
+dir_desc_0 = "Moverse"
 dir_group_1 = 0
 dir_desc_1 = ""
 dir_group_2 = 0
@@ -28,8 +27,8 @@ dir_group_6 = 0
 dir_desc_6 = ""
 dir_group_7 = 0
 dir_desc_7 = ""
-act_group_0 = 0
-act_desc_0 = ""
+act_group_0 = 1
+act_desc_0 = "Darse vuelta"
 act_group_1 = 0
 act_desc_1 = ""
 act_group_2 = 0

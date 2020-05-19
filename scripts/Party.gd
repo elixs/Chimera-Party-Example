@@ -5,10 +5,10 @@ var available_colors = [Color("9fbc4d"), Color("#bc4d4f"), Color("#fdc760"), Col
 var available_color_names = ["Verde", "Rojo", "Amarillo", "Azul"]
 
 enum GameType {
-	ALL_FOR_ALL,
-	ONE_VS_TWO,
-	ONE_VS_TREE,
-	TWO_VS_TWO
+	ALL_FOR_ALL = 1,
+	ONE_VS_TWO = 2,
+	ONE_VS_TREE = 4,
+	TWO_VS_TWO = 8
 }
 var game_type = GameType.ALL_FOR_ALL
 #var groups = [[0,1], [2,3]]

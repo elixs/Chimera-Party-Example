@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource( 1 )
 display_name = "Esperar 5"
-description = "Debes esperar 5segundos!
+description = "Debes esperar 5 segundos!
 Puedes darte vuelta!"
 game_types = 1
 control_group = false
